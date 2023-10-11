@@ -2,6 +2,10 @@
 
 This is my modernized version of the emovies.erwin data model. Below is a list of changes and additions I made.
 
+TWO overarching changes:
+    Adding streaming and ERental capabilities
+    Adding new E-pay options
+
 Entity changes:
     -Movie (is now a parent type with EBuy and PhysicalRental as children)
     -Payment (is now a parent type with three children: BitcoinPayment, PaypalPayment, CreditCardPayment)

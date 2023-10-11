@@ -7,7 +7,7 @@ TWO overarching changes:
     Adding new E-pay options
 
 Entity changes:
-    -Movie (is now a parent type with EBuy and PhysicalRental as children)
+    -MovieRentalRecord (is now a parent type with EBuy and PhysicalRental as children)
     -Payment (is now a parent type with three children: BitcoinPayment, PaypalPayment, CreditCardPayment)
 
 
